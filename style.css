@@ -1,0 +1,268 @@
+*{
+                                        margin: 0;
+                                        padding: 0;
+}
+
+/* slider section css */
+.selider {
+                                        background-color: #161616;
+                                        display: flex;
+                                        justify-content: space-around;
+                                        align-items: center;
+                                        height: 592px;
+}
+.selider .text-img-section {
+                                        display: flex;
+                                        justify-content: space-around;
+                                        align-items: center;
+                                        padding: 25px 0px;
+}
+.selider .selider-text {
+                                        width: 579px;
+}
+.selider .selider-text h1 {
+                                        font-size: 54px;
+                                        color: #FFFFFF;
+                                        line-height: 58px;
+                                        margin-bottom: 12px;
+}
+.selider .selider-text p {
+                                        font-size: 17px;
+                                        font-weight: 500;
+                                        color: #ffff;
+                                        line-height: 27px;
+                                        margin-bottom: 12px;
+}
+.selider .selider-text .button {
+                                        margin-top: 25px;
+}
+.selider .selider-text .button a {
+                                        text-decoration: none;
+                                        color: #fff;
+                                        background-color: #DD0000;
+                                        padding: 12px 35px 10px 10px;
+                                        border-radius: 5px;
+                                        position: relative;
+                                        font-size: 18px;
+                                        font-weight: 600;
+}
+.selider .selider-text .button a i {
+                                        position: absolute;
+                                        margin-top: 2px;
+                                        margin-left: 4px;
+                                        transition: .5s;
+}
+.selider .selider-text .button a:hover i{
+                                        margin-left: 10px;
+}
+.selider .slider-img{}
+.selider .slider-img img{
+                                        width: 423px;
+                                        height: 423px;
+}
+
+/* match over view section css */
+
+.match-over-view {
+                                        display: flex;
+                                        margin-top: 100px;
+                                        padding: 0px 36px;
+}
+.match-over-view .match-img-text {
+                                        display: grid;
+                                        grid-template-columns: repeat(3, 1fr);
+}
+.match-over-view .upcoming-math-sidebar {
+                                        width: 225px;
+                                        text-align: center;
+                                        margin-right: 35px;
+                                        display: flex;
+                                        justify-content: center;
+                                        margin-top: 16px;
+}
+.match-over-view .upcoming-math-sidebar .upcoming-sideber-color {
+                                        background-color: #362e2e;
+                                        border-radius: 6px;
+                                        height: 200px;
+                                        padding: 21px;
+}
+.match-over-view .upcoming-math-sidebar .set-margin {
+                                        margin-top: 15px;
+                                        margin-bottom: 10px;
+                                        padding: 16px 10px;
+                                        background-color: #fff;
+                                        font-size: 19px;
+                                        width: 171px;
+                                        border-radius: 18px;
+}
+.match-over-view .upcoming-math-sidebar h4 {
+                                        margin-top: 15px;
+                                        margin-bottom: 10px;
+                                        padding: 16px 10px;
+                                        background-color: #fff;
+                                        font-size: 19px;
+                                        width: 171px;
+                                        border-radius: 18px;
+                                        cursor: pointer;
+}
+.match-over-view .upcoming-math-sidebar a {
+                                        font-size: 20px;
+                                        font-weight: 700;
+                                        text-decoration: none;
+                                        color: #fff;
+                                        background-color: #008cdd;
+                                        padding: 10px 55px;
+                                        display: block;
+                                        margin-top: 12px;
+                                        border-radius: 10px;
+}
+.match-over-view .match-img-text .match .img img{
+
+}
+.match-over-view .match-img-text .match {
+                                        box-shadow: 0px 0px 10px rgb(45 52 54 / 40%);
+                                        margin: 10px;
+                                        width: 312px;
+                                        height: 302px;
+                                        border-radius: 9px;
+                                        padding: 10px 10px;
+}
+.match-over-view .match-img-text .text .button a {
+                                        margin-top: 5px;
+                                        display: block;
+                                        text-decoration: none;
+                                        font-weight: 600;
+                                        border: 1px solid #161616;
+                                        width: 66px;
+                                        text-align: center;
+                                        padding: 5px 15px;
+                                        border-radius: 7px;
+                                        margin-bottom: 7px;
+                                        transition: .5s;
+}
+.match-over-view .match-img-text .text .button a:hover{
+                                        background-color: rgba(165, 156, 156.4);
+                                        color: #fff;
+                                        border: 1px solid #ddd;
+}
+.match-over-view .match-img-text .text h5 {
+                                        color: #000;
+                                        font-size: 17px;
+                                        margin-bottom: 5px;
+}
+.match-over-view .match-img-text .text .icon-section {
+                                        display: flex;
+}
+.match-over-view .match-img-text .text .icon-section img {
+                                        margin-right: 3px;
+                                        margin-top: 3px;
+                                        cursor: pointer;
+}
+
+.match-over-view .match-img-text .text .icon-section span {
+                                        margin-top: 5px;
+                                        margin-right: 8px;
+                                        font-size: 16px;
+                                        color: #161616;
+}
+
+/* Footer css start */
+
+.footer{
+                                        margin-top: 120px;
+                                        background-color: #262e35;
+}
+.footer .footer-text {
+                                        padding: 62px;
+                                        text-align: center;
+}
+.footer h1 {
+                                        margin-bottom: 15px;
+                                        font-size: 38px;
+                                        color: #fff;
+}
+.footer hr{
+                                        width: 700px;
+}
+.footer .center {
+                                            display: flex;
+                                            justify-content: center;
+}
+.footer .footer-bootom-text {
+                                        margin-top: 20px;
+}
+.footer .footer-bootom-text ul {
+                                        list-style: none;
+                                        display: flex;
+                                        justify-content: center;
+}
+.footer .footer-bootom-text ul li {
+                                        margin-right: 20px;
+}
+.footer .footer-bootom-text ul li a {
+                                        text-decoration: none;
+                                        font-size: 17px;
+                                        font-weight: 500;
+                                        color: #ddd;
+                                        transition: .5s;
+}
+.footer .footer-bootom-text ul li a:hover{
+                                        color: #e04d4d;
+}
+
+/* second page css */
+
+.match-over-view .upcoming-math-sidebar .set-color {
+                                        margin-top: 15px;
+                                        margin-bottom: 10px;
+                                        padding: 16px 10px;
+                                        background-color: rgb(201, 14, 14);
+                                        font-size: 19px;
+                                        width: 171px;
+                                        border-radius: 18px;
+                                        cursor: pointer;
+    }
+.match-over-view .upcoming-math-sidebar a {
+                                        font-size: 20px;
+                                        font-weight: 700;
+                                        text-decoration: none;
+                                        color: rgb(27, 26, 26);
+                                        background-color: #ffffff;
+                                        padding: 10px 55px;
+                                        display: block;
+                                        margin-top: 12px;
+                                        border-radius: 10px;
+}
+.match-over-view .match-img-text .match-second-page .img-f{
+                                        display: flex;
+                                        justify-content: center;
+}
+.match-over-view .match-img-text .match-second-page .span-vs {
+                                        font-size: 20px;
+                                        margin: 20px 8px;
+                                        color: #000;
+                                        font-weight: 600;
+}
+.match-over-view .text-second-page{
+                                        margin-top: 30px
+}
+.match-over-view .text-second-page h5 {
+                                        font-size: 20px;
+                                        text-align: center;
+                                        color: #000;
+                                        margin-bottom: 10px;
+}
+.match-over-view .text-second-page p {
+                                        text-align: center;
+                                        font-size: 16px;
+                                        font-weight: 600;
+                                        color: rgb(156, 147, 147);
+}
+.match-over-view .match-img-text .match-second-page {
+                                        box-shadow: 0px 0px 10px rgb(45 52 54 / 40%);
+                                        margin: 10px;
+                                        width: 312px;
+                                        height: 188px;
+                                        border-radius: 9px;
+                                        padding: 10px 10px;
+}
