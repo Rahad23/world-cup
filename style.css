@@ -415,8 +415,7 @@ body{
                                         margin-left: 25px;
     }
     .match-over-view .match-img-text {
-                                        grid-template-columns: repeat(1, 1fr);
-                                       
+                                        grid-template-columns: repeat(2, 1fr);
     }
     .footer .footer-bootom-text ul {
                                         flex-direction: column;
