@@ -366,6 +366,64 @@ body{
                                         height: 31px;
     }
 }
+@media (max-width: 768px){
+    .selider {
+                                        display: flex;
+                                        justify-content: center;
+                                        flex-direction: column;
+                                        align-items: center;
+                                        height: 956px;
+    }
+        .selider .selider-text {
+                                        width: 579px;
+                                        margin-top: 187px;
+                                        text-align: center;
+                                        margin-bottom: 39px;
+        }
+    .match-over-view .upcoming-math-sidebar .upcoming-sideber-color {
+                                        padding: 28px;
+                                        display: flex;
+                                        height: 84px;
+                                        flex-direction: column;
+    }
+    .match-over-view .upcoming-math-sidebar {
+                                        margin-top: 0;
+                                        margin-bottom: 173px;
+    }
+    .match-over-view .upcoming-math-sidebar a {
+                                        padding: 21px 55px;
+                                        height: 27px;
+    }
+    .match-over-view .upcoming-math-sidebar .set-margin {
+                                        padding: 19px 10px;
+                                        width: 195px;
+    }
+    .match-over-view .upcoming-math-sidebar .set-margin {
+                                        padding: 19px 10px;
+                                        width: 195px;
+                                        margin-right: -21px;
+    }
+    .match-over-view .upcoming-math-sidebar h4 {
+                                        padding: 19px 10px;
+                                        width: 195px;
+                                        margin-right: -21px;
+    }
+    .match-over-view .upcoming-math-sidebar a {
+                                        padding: 17px 55px;
+                                        height: 27px;
+                                        margin-left: 25px;
+    }
+    .match-over-view .match-img-text {
+                                        grid-template-columns: repeat(1, 1fr);
+                                       
+    }
+    .footer .footer-bootom-text ul {
+                                        flex-direction: column;
+    }
+    .footer hr {
+                                        width: 421px;
+    }
+}
 @media (max-width: 576px) { 
     .selider {
                                         background-color: #161616;
