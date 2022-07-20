@@ -68,6 +68,9 @@
                                         margin-top: 100px;
                                         padding: 0px 36px;
 }
+.match-over-view .tablet-view-button{
+                                        display: none;
+}
 .match-over-view .match-img-text {
                                         display: grid;
                                         grid-template-columns: repeat(3, 1fr);
@@ -168,9 +171,10 @@
 
 /* Footer css start */
 
-.footer{
+.footer {
                                         margin-top: 120px;
                                         background-color: #262e35;
+                                        width: 1352px;
 }
 .footer .footer-text {
                                         padding: 62px;
@@ -218,6 +222,7 @@
                                         padding: 16px 10px;
                                         background-color: rgb(201, 14, 14);
                                         font-size: 19px;
+                                        color: #FFFFFF;
                                         width: 171px;
                                         border-radius: 18px;
                                         cursor: pointer;
@@ -265,4 +270,154 @@
                                         height: 188px;
                                         border-radius: 9px;
                                         padding: 10px 10px;
+}
+
+/* Responsive css  */
+
+@media (max-width: 1200px){
+    .selider {
+                                        width: 1321px;
+    }
+    .match-over-view {
+                                        width: 1244px;
+                                        justify-content: space-around;
+    }
+    .match-over-view .match-img-text {
+                                        grid-template-columns: repeat(2, 1fr);
+                                        width: 964px;
+                                        justify-content: center;
+                                        justify-items: center;
+                                        row-gap: 16px;
+    }
+    .footer {
+                                        width: 1318px;
+    }
+}
+@media (max-width: 992px) { 
+
+    .match-over-view {
+      
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+    }
+
+    .match-over-view .upcoming-math-sidebar .set-margin {
+                                        background-color: rgba(207, 177, 177.4);
+                                        margin-right: 80px;
+                                        padding: 19px 25px;
+                                        font-size: 20px;
+                                        color: #fff;
+    }
+    .match-over-view .upcoming-math-sidebar h4 {
+                                        background-color: rgba(207, 177, 177.4);
+                                        margin-right: 80px;
+                                        padding: 19px 25px;
+                                        font-size: 20px;
+                                        color: #fff;
+    }
+    .match-over-view .upcoming-math-sidebar .upcoming-sideber-color {
+                                        padding: 28px;
+                                        display: flex;
+                                        height: 84px;
+    }
+    .match-over-view .upcoming-math-sidebar a {
+       
+                                        padding: 21px 55px;
+                                        height: 17px;
+    }
+    .match-over-view .upcoming-math-sidebar .upcoming-sideber-color {
+                                        background-color: #fff;
+
+    }
+    .match-over-view .upcoming-math-sidebar {
+                                        margin-top: 0;
+                                        margin-bottom: 23px;
+    }
+    .match-over-view .tablet-view-button {
+                                        margin-top: 40px;
+                                        display: block;
+    }
+    .match-over-view .tablet-view-button a{
+                                        text-decoration: none;
+                                        font-size: 21px;
+                                        display: block;
+                                        font-weight: 600;
+                                        background-color: red;
+                                        padding: 13px 36px;
+                                        color: #fff;
+                                        border-radius: 5px;
+    }
+    .match-over-view .upcoming-math-sidebar .color-change {
+                                        font-size: 20px;
+                                        font-weight: 700;
+                                        text-decoration: none;
+                                        color: #fff;
+                                        background-color: rgb(39, 149, 252);
+                                        padding: 19px 70px;
+                                        margin-top: 18px;
+                                        display: block;
+                                        border-radius: 10px;
+    }
+}
+@media (max-width: 576px) { 
+    .selider {
+                                        background-color: #161616;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 787px;
+                                        flex-direction: column;
+    }
+    .selider .selider-text {
+                                        width: 579px;
+                                        text-align: center;
+                                        margin-bottom: 43px;
+                                        margin-top: 40px;
+    }
+    .match-over-view .upcoming-math-sidebar .upcoming-sideber-color {
+                                        height: 218px;
+    }
+    .match-over-view .upcoming-math-sidebar .upcoming-sideber-color {
+                                        flex-direction: column;
+                                        margin-bottom: 40px;
+                                        display: flex;
+                                        justify-content: center;
+    }
+    .match-over-view .upcoming-math-sidebar {
+                                        width: 354px;
+    }
+    .match-over-view .upcoming-math-sidebar .set-margin {
+                                        font-size: 28px;
+                                        width: 255px;
+                                        margin-right: 0px;
+    }
+    .match-over-view .upcoming-math-sidebar h4 {
+                                        font-size: 28px;
+                                        width: 255px;
+                                        margin-right: 0px;
+    }
+    .match-over-view .upcoming-math-sidebar a {
+                                        padding: 21px 6px;
+                                        font-size: 33px;
+                                        height: 35px;
+    }
+    .match-over-view .match-img-text {
+                                        grid-template-columns: repeat(1, 1fr);
+      
+    }
+    .match-over-view .match-img-text .text h5 {
+                                        color: #000;
+                                        font-size: 21px;
+                                        margin-bottom: 5px;
+    }
+    .match-over-view .tablet-view-button a {
+                                        display: none;
+    }
+    .footer .footer-bootom-text ul {
+                                        flex-direction: column;
+    }
+    .footer .footer-bootom-text ul li {
+                                        line-height: 26px;
+    }
 }
