@@ -8,7 +8,7 @@ body{
 
 /* slider section css */
 .selider {
-                                        background-color: #161616;
+                                        background-color: #560161;
                                         display: flex;
                                         justify-content: space-around;
                                         align-items: center;
@@ -176,7 +176,7 @@ body{
 
 .footer {
                                         margin-top: 120px;
-                                        background-color: #262e35;
+                                        background-color: #03233f;
                                         width: 1352px;
 }
 .footer .footer-text {
@@ -426,7 +426,6 @@ body{
 }
 @media (max-width: 576px) { 
     .selider {
-                                        background-color: #161616;
                                         display: flex;
                                         justify-content: center;
                                         align-items: center;
