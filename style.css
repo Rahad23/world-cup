@@ -458,13 +458,15 @@ body{
     }
     .match-over-view .upcoming-math-sidebar h4 {
                                         font-size: 25px;
-                                        width: 255px;
+                                        width: 287px;
                                         margin-right: 0px;
     }
     .match-over-view .upcoming-math-sidebar a {
-                                        padding: 21px 6px;
+                                        padding: 21px 9px;
                                         font-size: 33px;
-                                        height: 35px;
+                                        height: 42px;
+                                        width: 287px;
+                                        margin-left: 0;
     }
     .match-over-view .match-img-text {
                                         grid-template-columns: repeat(1, 1fr);
